@@ -1,0 +1,19 @@
+.footer-section {
+  padding: 16px 0;
+  background-image: url("../images/footer-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (min-width: $bp-desktop) {
+      flex-direction: row;
+      padding-right: 240px;
+    }
+  }
+}

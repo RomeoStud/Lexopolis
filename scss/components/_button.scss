@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  padding: 12px 24px;
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-secondary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover,
+.modal__btn-close:hover {
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-brown);
+}

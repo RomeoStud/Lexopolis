@@ -1,0 +1,40 @@
+.services-section {
+  &__titleblock {
+    padding-top: 30px;
+    padding-right: 30px;
+    background-image: url("../images/title-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__title {
+    padding-bottom: 30px;
+    &::after {
+      display: block;
+      /*width: 130px;
+  height: 2px;
+  background-color: var(--color-brand-secondary);*/
+    }
+  }
+
+  &__group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px 16px;
+  }
+
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    max-width: 300px;
+    padding-bottom: 38px;
+  }
+
+  &__box-title {
+    text-align: center;
+  }
+}

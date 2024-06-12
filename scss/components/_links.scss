@@ -1,0 +1,40 @@
+.link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--color-brand-first);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.service-link {
+  color: var(--color-brand-secondary);
+}
+
+.service-link:hover {
+  color: var(--color-primary-dark);
+}
+
+.contact-link {
+  color: var(--color-primary-dark);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: var(--color-brand-first);
+}
+
+.footer-link {
+  color: var(--color-primary-light);
+  font-style: normal;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.footer-link:hover {
+  color: var(--color-brand-first);
+}

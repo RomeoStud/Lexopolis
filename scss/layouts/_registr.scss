@@ -1,0 +1,52 @@
+.registr-section {
+  &__titleblock {
+    padding-top: 30px;
+    padding-right: 30px;
+    background-image: url("../images/title-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /*@media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("../images/title-image2x.jpg");
+  }*/
+
+  &__advantage {
+    color: var(--color-primary-light);
+    list-style-type: circle;
+    padding-bottom: 18px;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  &__infolist {
+    @media screen and (min-width: $bp-tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__regstep {
+    padding: 12px;
+
+    @media screen and (min-width: $bp-tablet) {
+      padding: 32px;
+      max-width: 520px;
+    }
+  }
+
+  &__data {
+    list-style-type: circle;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+  }
+}
